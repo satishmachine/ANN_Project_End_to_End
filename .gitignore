@@ -1,0 +1,87 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ===============================
+# Virtual Environments
+# ===============================
+.venv/
+venv/
+env/
+ENV/
+
+# ===============================
+# uv
+# ===============================
+.uv/
+uv.lock
+
+# ===============================
+# Jupyter Notebook
+# ===============================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ===============================
+# TensorFlow / Keras
+# ===============================
+log/
+tensorboard_logs/
+events.out.tfevents.*
+
+# Saved models (keep if you want versioned models)
+
+*.keras
+saved_model/
+checkpoints/
+
+# ===============================
+# Data (DO NOT COMMIT RAW DATA)
+# ===============================
+data/
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+
+# ===============================
+# Experiments / Outputs
+# ===============================
+outputs/
+results/
+predictions/
+artifacts/
+
+# ===============================
+# OS / Windows
+# ===============================
+Thumbs.db
+Desktop.ini
+
+# ===============================
+# IDEs
+# ===============================
+.vscode/
+.idea/
+*.iml
+
+# ===============================
+# Environment variables
+# ===============================
+.env
+.env.*
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# Temporary files
+# ===============================
+*.tmp
+*.bak
