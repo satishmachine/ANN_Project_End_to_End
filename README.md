@@ -150,13 +150,13 @@ Then open `http://localhost:6006` in your browser.
 See [`requirements.txt`](requirements.txt):
 
 ```
-tensorflow==2.15.0
-pandas
-numpy
-scikit-learn
-tensorboard
-matplotlib
-streamlit
-scikeras
+matplotlib>=3.10.8
+numpy>=2.4.2
+pandas>=2.3.3
+scikeras>=0.13.0
+scikit-learn>=1.8.0
+streamlit>=1.54.0
+tensorboard>=2.20.0
+tensorflow>=2.20.0
 ```
 
