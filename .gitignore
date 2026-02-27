@@ -42,7 +42,7 @@ checkpoints/
 # ===============================
 # Data (DO NOT COMMIT RAW DATA)
 # ===============================
-*.csv
+
 *.tsv
 *.parquet
 *.xlsx
