@@ -1,8 +1,7 @@
-tensorflow
-pandas 
-numpy 
+streamlit>=1.30.0
+tensorflow==2.15.0
+keras==2.15.0
+numpy<2
+pandas
 scikit-learn
-tensorboard
-matplotlib
-streamlit
-scikeras
+protobuf<5
