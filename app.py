@@ -7,7 +7,8 @@ from tensorflow.keras.models import load_model
 import pickle
 
 # Load the trained model
-model = load_model('model.h5')
+model = load_model('model.h5', compile=False)
+model.save("model.keras")
 
 # Load the encoders and scaler pickel file
 with open('onehot_encoder_geo.pkl', "rb") as file:
