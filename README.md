@@ -72,7 +72,7 @@ The ANN is a **Sequential model** built with TensorFlow/Keras:
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:satishmachine/ANN_Project_End_to_End.git
 cd ANN_Project_End_to_End
 ```
 
